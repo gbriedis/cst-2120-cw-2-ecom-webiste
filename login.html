@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=1440, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>GINHUSS - Playstation 5 Games</title>
+    <title>GINHUSS - Login</title>
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Mukta+Vaani:wght@400;500;700&display=swap" rel="stylesheet">
@@ -14,22 +14,22 @@
     <!-- Navbar Section -->
     <nav class="navbar">
         <div class="navbar__container">
-            <a href="#home" id="navbar__logo">GINHUSS</a>
+            <a href="index.html#home" id="navbar__logo">GINHUSS</a>
             <ul class="navbar__menu">
                 <li class="navbar__item">
                     <input type="text" placeholder="Search Products..." class="border__gradient" id="search-bar">
                 </li>
                 <li class="navbar__item">
-                    <a href="#home" class="navbar__links" id="home-page">Home</a>
+                    <a href="index.html" class="navbar__links" id="home-page">Home</a>
                 </li>
                 <li class="navbar__item">
-                    <a href="#products" class="navbar__links" id="products-page">Products</a>
+                    <a href="index.html#products" class="navbar__links" id="products-page">Products</a>
                 </li>
                 <li class="navbar__item">
-                    <a href="#about" class="navbar__links" id="about-page">About Us</a>
+                    <a href="index.html#about" class="navbar__links" id="about-page">About Us</a>
                 </li>
                 <li class="navbar__item">
-                    <a href="login.html" class="navbar__links" id="signin-page">Sign In</a>
+                    <a href="#signin" class="navbar__links" id="signin-page">Sign In</a>
                 </li>
                 <li class="navbar__item">
                     <a href="#trolley" class="navbar__links" id="trolley-page"><svg class="shopping-trolley" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" width="512" height="512" x="0" y="0" viewBox="0 0 475 475.40008" style="enable-background:new 0 0 512 512" xml:space="preserve"><g><path xmlns="http://www.w3.org/2000/svg" d="m149.5 373.800781c-28.054688 0-50.800781 22.742188-50.800781 50.800781 0 28.054688 22.746093 50.796876 50.800781 50.796876s50.800781-22.742188 50.800781-50.796876c-.039062-28.042968-22.761719-50.761718-50.800781-50.800781zm0 81.597657c-17.011719 0-30.800781-13.789063-30.800781-30.796876 0-17.011718 13.789062-30.800781 30.800781-30.800781s30.800781 13.789063 30.800781 30.800781c-.007812 17.007813-13.792969 30.792969-30.800781 30.796876zm0 0" fill="#ffffff" data-original="#000000" style=""/><path xmlns="http://www.w3.org/2000/svg" d="m363.398438 373.800781c-28.054688 0-50.796876 22.742188-50.796876 50.800781 0 28.054688 22.742188 50.796876 50.796876 50.796876 28.058593 0 50.800781-22.742188 50.800781-50.796876-.039063-28.042968-22.757813-50.761718-50.800781-50.800781zm0 81.597657c-17.007813 0-30.796876-13.789063-30.796876-30.796876 0-17.011718 13.789063-30.800781 30.796876-30.800781 17.011718 0 30.800781 13.789063 30.800781 30.800781-.007813 17.007813-13.792969 30.792969-30.800781 30.796876zm0 0" fill="#ffffff" data-original="#000000" style=""/><path xmlns="http://www.w3.org/2000/svg" d="m432.398438 93.601562h-338.597657l-7.402343-43.601562c-4.855469-28.898438-29.894532-50.046875-59.199219-50h-17c-5.523438 0-10 4.476562-10 10s4.476562 10 10 10h17c19.527343-.078125 36.222656 14.035156 39.402343 33.300781l40.097657 236.300781c4.855469 28.894532 29.898437 50.046876 59.199219 50h228.203124c5.519532 0 10-4.480468 10-10 0-5.523437-4.480468-10-10-10h-228.101562c-19.527344.074219-36.222656-14.035156-39.398438-33.300781l-3.300781-19.199219h224.097657c26.214843.054688 49.40625-16.972656 57.203124-42l37.296876-118.5c.980468-3.035156.421874-6.355468-1.5-8.902343-1.875-2.542969-4.835938-4.0625-8-4.097657zm-46.898438 125.398438c-5.230469 16.691406-20.710938 28.039062-38.199219 28h-227.402343l-22.699219-133.5h321.5zm0 0" fill="#ffffff" data-original="#000000" style=""/></g></svg></a>
@@ -37,144 +37,19 @@
             </ul>
         </div>
     </nav>
+    <!-- Login Section -->
+    <div class="login">
+        <div class="login__container">
+            <h1>Login</h1>
 
-    <!-- Hero Section -->
-
-    <div class="hero" id="home">
-        <div class="hero__container">
-            <h1 class="hero__header">Buy PS5 Games</h1>
-            <!-- hero image svg -->
-            <svg class="hero__img" width="264" height="338" viewBox="0 0 264 338" fill="none" xmlns="http://www.w3.org/2000/svg" class="hero__image">
-                <rect width="264" height="338" rx="5" fill="#1D58AB"/>
-                <rect x="32" y="9" width="232" height="329" rx="5" fill="#1C1C1C"/>
-                <rect x="32" y="9" width="232" height="161" rx="5" fill="#212121"/>
-                <rect class="hero__img__ps5" x="7" y="9" width="18" height="66" rx="5" fill="#2868C1"/>
-                <rect class="hero__img__purple" x="49" y="204" width="177" height="20" rx="5" fill="#8439B0"/>
-                <rect class="hero__img__red" x="48" y="237" width="155" height="15" rx="5" fill="#8A1525"/>
-                <rect class="hero__img__orange" x="49" y="265" width="90" height="10" rx="5" fill="#B94823"/>
-                <rect class="hero__img__yellow" x="49" y="288" width="123" height="15" rx="5" fill="#FAAC44"/>
-                </svg>
-            <a href="#products" class="hero__scrolldown" id="products-page">Scroll Down</a>
-        </div>
-    </div>
-
-    <!-- Products Section -->
-    <div class="products" id="products">
-        <div class="products__container">
-            <div class="product__item" id="product-1">
-                <div class="product__img">
-                    <img src="/assets/img/prod1.jpg" alt="">
-                </div>
-                <div class="product__content">
-                    <h2>Spider Man Miles Morales</h2>
-                    <span class="line"></span>
-                    <h3>£49.00</h3>
-                    <a href="#" class="addToBasketBtn">Add To Basket</a>
-                </div>
-            </div>
-            <div class="product__item" id="product-1">
-                <div class="product__img">
-                    <img src="/assets/img/prod2.jpg" alt="">
-                </div>
-                <div class="product__content">
-                    <h2>Grant Theft Auto V</h2>
-                    <span class="line"></span>
-                    <h3>£64.00</h3>
-                    <a href="#" class="addToBasketBtn">Add To Basket</a>
-                </div>
-            </div>
-            <div class="product__item" id="product-1">
-                <div class="product__img">
-                    <img src="/assets/img/prod3.jpg" alt="">
-                </div>
-                <div class="product__content">
-                    <h2>Horizon Forbidden West</h2>
-                    <span class="line"></span>
-                    <h3>£59.00</h3>
-                    <a href="#" class="addToBasketBtn">Add To Basket</a>
-                </div>
-            </div>
-            <div class="product__item" id="product-1">
-                <div class="product__img">
-                    <img src="/assets/img/prod1.jpg" alt="">
-                </div>
-                <div class="product__content">
-                    <h2>Spider Man Miles Morales</h2>
-                    <span class="line"></span>
-                    <h3>£49.00</h3>
-                    <a href="#" class="addToBasketBtn">Add To Basket</a>
-                </div>
-            </div>
-            <div class="product__item" id="product-1">
-                <div class="product__img">
-                    <img src="/assets/img/prod2.jpg" alt="">
-                </div>
-                <div class="product__content">
-                    <h2>Grant Theft Auto V</h2>
-                    <span class="line"></span>
-                    <h3>£64.00</h3>
-                    <a href="#" class="addToBasketBtn">Add To Basket</a>
-                </div>
-            </div>
-            <div class="product__item" id="product-1">
-                <div class="product__img">
-                    <img src="/assets/img/prod3.jpg" alt="">
-                </div>
-                <div class="product__content">
-                    <h2>Horizon Forbidden West</h2>
-                    <span class="line"></span>
-                    <h3>£59.00</h3>
-                    <a href="#" class="addToBasketBtn">Add To Basket</a>
-                </div>
-            </div>
-            <div class="product__item" id="product-1">
-                <div class="product__img">
-                    <img src="/assets/img/prod1.jpg" alt="">
-                </div>
-                <div class="product__content">
-                    <h2>Spider Man Miles Morales</h2>
-                    <span class="line"></span>
-                    <h3>£49.00</h3>
-                    <a href="#" class="addToBasketBtn">Add To Basket</a>
-                </div>
-            </div>
-            <div class="product__item" id="product-1">
-                <div class="product__img">
-                    <img src="/assets/img/prod2.jpg" alt="">
-                </div>
-                <div class="product__content">
-                    <h2>Grant Theft Auto V</h2>
-                    <span class="line"></span>
-                    <h3>£64.00</h3>
-                    <a href="#" class="addToBasketBtn">Add To Basket</a>
-                </div>
-            </div>
-            <div class="product__item" id="product-1">
-                <div class="product__img">
-                    <img src="/assets/img/prod3.jpg" alt="">
-                </div>
-                <div class="product__content">
-                    <h2>Horizon Forbidden West</h2>
-                    <span class="line"></span>
-                    <h3>£59.00</h3>
-                    <a href="#" class="addToBasketBtn">Add To Basket</a>
-                </div>
-            </div> 
-        </div>
-    </div>
-    <!-- About Section -->
-    <div class="aboutUs" id="about">
-        <div class="aboutUs__container">
-            <div class="aboutUs__img">
-                <img src="/assets/img/location-img.png" alt="Image of our location">
-            </div>
-            <div class="aboutUs__content">
-                <h2>GINHUSS</h2>
-                <span class="line"></span>
-                <h3>Location: The Burroughs, Hendon, London NW4 4BT</h3>
-                <h3>Open: 10:00-16:00</h3>
-                <h3 id="aboutUs-tel">Tel: +447742391221</h3>
-                <a href="#" class="getInTouchBtn">Get In Touch</a>
+            <div class="login__form">
+                <div id="loginError"></div>
+                <form id="loginForm">
+                    <input id="username" type="text" placeholder="Username" autocomplete="off">
+                    <input id="password" type="text" placeholder="Password" autocomplete="off">
+                    <a href="register.html">Don't Have An Account?</a>
+                    <button id="loginBtn" type="submit" onclick="login()">Login</button>
+                </form>
             </div>
         </div>
     </div>
@@ -218,7 +93,5 @@
         </div>
     </footer>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
-    <script src="/assets/js/animations.js"></script>
 </body>
 </html>
