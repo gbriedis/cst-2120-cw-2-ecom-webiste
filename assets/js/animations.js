@@ -15,8 +15,8 @@ anim.from('.hero__header', { x: -100 }, '+=0.2')
     .from('.hero__img__ps5', { y:-80 }, '-=0.2')
 
 anim2.to('.hero__img', {
-    x: 'random(-20, 20)',
-    y: 'random(-20, 20)',
+    x: 'random(-30, 30, 2)',
+    y: 'random(-30, 30, 2)',
     repeat: -1,
     yoyo: true,
     repeatRefresh: true
