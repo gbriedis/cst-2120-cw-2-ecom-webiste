@@ -344,8 +344,134 @@
     }
 }
 
+// register
+
 #registerBtn {
     float: right;
+}
+
+// shopping cart 
+
+.shoppingCart {
+    background: rgb(22, 22, 22);
+    height: 92vh;
+    padding-top: 3.5em; 
+
+    .shoppingCart__container {
+        background-color: #3a3a3a;
+        max-width: 1296px;
+        margin: 0 auto;
+        padding: 3em 5em 7em 5em;
+        box-sizing: border-box;
+        border-radius: 20px;
+        height: 90%;
+        display: flex;
+        justify-content: space-between; 
+
+        #buyBtn {
+            margin: 3em 0 0 0;
+            float: right;
+            background: #FCB045;
+            text-decoration: none;
+            color: #000;
+            padding: .5em 2em;
+        }
+
+        #buyBtn:hover {
+            background: #ffbd60;
+            
+        }
+
+        .details__container {
+
+            h2 {
+                color: rgb(175, 175, 175);
+                font-size: 1.05rem;
+            }
+
+            p {
+                color: rgb(255, 255, 255);
+            }
+
+            #detailsForm {
+                flex-direction: column;
+            }
+
+            input {
+                width: 50%;
+                margin: .3em 0;
+                padding: .5em .5em;
+                font-size: .9rem;
+                color: #000;
+                outline: none;
+                background: #d9d9d9;
+                border: 1px solid #d9d9d9;
+                border-radius: 10px;
+            }
+
+            .detailsOutput {
+                margin: 2em 0;
+            }
+
+            .line {
+                display: block;
+                width: 90%;
+                height: 1px;
+                margin: .5em 0;
+                background: rgba(255, 255, 255, 0.279);
+            }
+        }
+
+        .order__section {
+            h2 {
+                color: rgb(175, 175, 175);
+                font-size: 1.05rem;
+            } 
+        }
+
+        .product__details {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            img {
+                max-width: 15%;
+            }
+
+            #productName {
+                color: #fff;
+                width: 35%;
+                padding-left: 1em;
+            }
+
+            #productQuantity {
+                color: #fff;
+                width: 25%;
+                justify-self: end;
+
+            }
+
+            #productPrice {
+                color: #fff;
+                width: 25%;
+            }
+
+            .lineb {
+                display: block;
+                width: 100%;
+                height: 1px;
+                margin: .5em 0;
+                background: rgba(255, 255, 255, 0.279);   
+            }
+        }
+
+        .order__section .line {
+            display: block;
+            width: 100%;
+            height: 1px;
+            margin: .5em 0;
+            background: rgba(255, 255, 255, 0.279); 
+        }
+    }
 }
 
 // gradient

@@ -12,3 +12,6 @@
   * Edit Products
   * View and delete custoemr orders
 * Customers can register on the website and see past orders
+
+### Screenshots of the website
+* https://filebin.net/8fkof7d6noxqidnz 
