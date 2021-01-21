@@ -7,6 +7,8 @@
     scroll-behavior: smooth;
 }
 
+// navbar 
+
 .navbar {
     background: #000000;
     height: 60px;
@@ -434,25 +436,25 @@
             flex-wrap: wrap;
             align-items: center;
             img {
-                max-width: 15%;
+                max-width: 10%;
             }
 
             #productName {
                 color: #fff;
-                width: 35%;
+                width: 55%;
                 padding-left: 1em;
             }
 
             #productQuantity {
                 color: #fff;
-                width: 25%;
+                width: 20%;
                 justify-self: end;
 
             }
 
             #productPrice {
                 color: #fff;
-                width: 25%;
+                width: 15%;
             }
 
             .lineb {
