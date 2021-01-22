@@ -95,6 +95,10 @@
     width: 18%;
 }
 
+.admin-icon {
+    width: 18%;
+}
+
 // hero section
 
 .hero {
@@ -148,6 +152,7 @@
         padding: 2%;
         height: 450px;
         border: #ececec 1px solid;
+        border-collapse: collapse;
         overflow: hidden;
 
     }
@@ -474,6 +479,133 @@
             background: rgba(255, 255, 255, 0.279); 
         }
     }
+}
+
+// cms
+
+.cms {
+    height: 92vh;
+
+    .cms__nav {
+        display: flex;
+        max-width: 1296;
+        justify-content: center;
+        align-items: center;
+        height: 20%;
+        
+        a {
+            margin: 0 .5em;
+            padding: .5em 1em;
+            text-decoration: none;
+            color: #000;
+            background: #ffbd60;
+            transition: .2s ease-out;
+        }
+
+        a:hover {
+            background: #d39846;
+        }
+    }
+
+    .cms__container {
+        max-width: 1296px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+
+        table, th, td {
+            border: 1px solid rgba(0, 0, 0, 0.158);
+            border-collapse: collapse;
+        }
+
+        th {
+            background: #ffbd60;
+            font-size: 1.1rem;
+        }
+        
+        tr {
+            transition: 0.2s ease-out;
+        }
+
+        table {
+            width: 100%;
+        }
+
+        caption {
+            text-align: left;
+            font-size: 1.2rem;
+        }
+
+        th, td {
+            padding: 1em;
+            text-align: center;
+        }
+
+        tr:nth-child(even) {
+            background-color: #eee;
+        }
+        tr:nth-child(odd) {
+            background-color: #fff;
+        }
+        tr:hover {
+            background-color: rgb(204, 204, 204);
+
+        }
+    }
+}
+
+// cms add product
+.cms__add {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    h2 {
+        width: 100%;
+    }
+
+    input {
+        width: 100%;
+        padding: .2em;
+        font-size: 1.10rem;
+        margin: .1em 0;
+        outline: none;
+    }
+
+    #addProductBtn {
+        margin: 1em 0;
+        padding: .5em 2em;
+        font-size: 1.05rem;
+        color: #000;
+        background: #ffbd60;
+        transition: .2s ease-out;
+        border: none;
+        cursor: pointer;
+    }
+
+    #addProductBtn:hover {
+        background: #d39846;
+
+    }
+}
+
+// remove product CMS
+
+#removeProductBtn {
+    margin: 1em 0;
+    padding: .5em 2em;
+    font-size: 1.05rem;
+    color: #000;
+    background: #ffbd60;
+    transition: .2s ease-out;
+    border: none;
+    cursor: pointer;
+}
+
+#removeProductBtn:hover {
+    background: #d39846;
+
 }
 
 // gradient
